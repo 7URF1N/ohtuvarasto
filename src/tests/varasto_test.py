@@ -78,4 +78,3 @@ class TestVarasto(unittest.TestCase):
     def test_varaston_merkkijono(self):
         self.varasto.lisaa_varastoon(3)
         self.assertIn("saldo = 3", str(self.varasto))
-
