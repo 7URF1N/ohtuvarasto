@@ -1,6 +1,5 @@
 from varasto import Varasto
 
-# Tämä on tarkoituksella todella pitkä kommenttirivi, jolla testaan, että GitHub Actions ja Pylint huomaavat yli kahdeksankymmentä merkkiä pitkän rivin.
 def nayta_alkutilanne(mehua, olutta):
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
